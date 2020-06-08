@@ -19,19 +19,34 @@ aside {
     width: 20%;
     height: 200px;
     padding: 10px;
-    background-color: violet;
     float: left;
 }
 
+.contenitore{
+    height: 100%;
+}
+aside .contenitore{
+    background-color: violet;
+}
+
+aside .right {
+    height: 400px;
+    background-color: violet;
+}
 
 main {
     width: 60%;
     height: 500px;
-    background-color: purple;
+    padding: 10px;
     float: left;
+}
+
+main .contenitore{
+    background-color: purple;
 }
 
 footer {
     height: 100px;
     background-color: lightblue;
+
 }
