@@ -16,5 +16,22 @@ header {
 }
 
 aside {
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    background-color: violet;
+    float: left;
+}
 
+
+main {
+    width: 60%;
+    height: 500px;
+    background-color: purple;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: lightblue;
 }
