@@ -4,44 +4,53 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 200px;
-    background-color: yellow;
-}
-
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
+.container {
+    margin: 10px;
+}
+
+header {
+    height: 200px;
+    background-color: yellow;
+}
+
+.row {
+    padding: 10px 0;
+}
+
 aside {
     width: 20%;
     height: 200px;
-    padding: 10px;
     float: left;
 }
 
-.contenitore{
+.contenitore {
     height: 100%;
 }
-aside .contenitore{
+
+aside .contenitore {
     background-color: violet;
 }
 
 aside .right {
-    height: 400px;
+    height: 200px;
     background-color: violet;
+    margin-bottom: 10px;
 }
 
 main {
     width: 60%;
     height: 500px;
-    padding: 10px;
+    padding: 0 10px;
     float: left;
 }
 
-main .contenitore{
+main .contenitore {
     background-color: purple;
 }
 
